@@ -1,56 +1,119 @@
 # my-second-website
 <!DOCTYPE html>
-<html/>
+<html lang="en">
 <head>
-<style>
-body {
-    background-color: #f2f2f2;
-    font-family: Arial; 
-}
+    <meta charset="UTF-8">
+    <title>Janith Thilanka - Web Card</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #1e1e1e;
+            color: #ffffff;
+            text-align: center;
+            padding: 40px;
+        }
 
-h2 {
-    color: darkblue;
-}
-</style>
-</head>
-    <title>My First Page</title>
+        img {
+            border-radius: 50%;
+            width: 150px;
+            border: 3px solid #00ccff;
+        }
+
+        a {
+            color: #00ccff;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        table {
+            margin: 20px auto;
+            border-collapse: collapse;
+            width: 60%;
+            background-color: #2c2c2c;
+        }
+
+        th, td {
+            border: 1px solid #555;
+            padding: 10px;
+        }
+
+        th {
+            background-color: #00ccff;
+            color: #000;
+        }
+
+        form {
+            margin-top: 30px;
+            background-color: #333;
+            padding: 20px;
+            border-radius: 8px;
+            width: 300px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        input[type="text"], input[type="email"] {
+            width: 90%;
+            padding: 8px;
+            margin: 10px 0;
+        }
+
+        input[type="submit"] {
+            background-color: #00ccff;
+            border: none;
+            padding: 10px 20px;
+            color: #000;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #00aacc;
+        }
+    </style>
 </head>
 <body>
-    <h1>Hello World!</h1>
-<h1 style="color: green;">Hello World!</h1>
-    <h2>My World</h2>
-    <p>This is my first and this is not the last</p>
-    <h3>My second word</h3>
-    <p style="color: blue; font-size: 18px;">This is my first HTML page.<br>gahha samaplae hdkkhah</p>
-    <h4>heading 4</h4>
-    <a>https://github.com/microsoft/vscode#</a><br>
-    <img src="photo1.jpg" alt="just a photo" width="300"><br>
-    <img src="https://media.istockphoto.com/id/1446277250/vector/bicycle-isolated-on-white-background.jpg?s=612x612&w=0&k=20&c=FVDWDP-fDf0GLoat6LZghPvizTGgYXvCFpC6GayWFMI=" alt="just a photo2" width="300">
-    <a href="https://en.wikipedia.org/wiki/HTML" target="_blank">Learn HTML</a>
-<ul>train,cat,car</ul>
-<ul><li>Train,cat,bus</ul></li>
-<ul><ol>Train,cat,bus</ul></ol>
-<strong>Important</strong><br>
-<em>Important</em>
-<table border="1">
-<tr>
-<th>Name</th>
-<th>Age</th>
-</tr>
-<tr>
-<td>Janith</td>
-<td>25</td>
-</tr>
-</table><br>
-<form action="/submit" method="post">
-  <label for="name">Name:</label>
-  <input type="text" id="name" name="name"><br><br>
 
-  <label for="email">Email:</label>
-  <input type="email" id="email" name="email"><br><br>
+    <h1>Hi, I'm Janith Thilanka 👋</h1>
 
-  <input type="submit" value="Submit">
-</form>
+    <img src="https://www.w3schools.com/howto/img_avatar.png" alt="My Profile Image">
+
+    <p>This is my first website using Git Bash and GitHub. Welcome to my web.</p>
+
+    <p>Check out my favorite site:
+        <a href="https://www.w3schools.com" target="_blank">W3Schools</a>
+    </p>
+
+    <h2>📊 My Skills</h2>
+    <table>
+        <tr>
+            <th>Skill</th>
+            <th>Level</th>
+        </tr>
+        <tr>
+            <td>HTML</td>
+            <td>Beginner</td>
+        </tr>
+        <tr>
+            <td>Git & GitHub</td>
+            <td>Beginner</td>
+        </tr>
+    </table>
+
+    <h2>📨 Contact Me</h2>
+    <form action="#">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br>
+
+        <input type="submit" value="Send">
+    </form>
 
 </body>
 </html>
+
