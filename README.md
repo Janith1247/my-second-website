@@ -1,1 +1,56 @@
 # my-second-website
+<!DOCTYPE html>
+<html/>
+<head>
+<style>
+body {
+    background-color: #f2f2f2;
+    font-family: Arial; 
+}
+
+h2 {
+    color: darkblue;
+}
+</style>
+</head>
+    <title>My First Page</title>
+</head>
+<body>
+    <h1>Hello World!</h1>
+<h1 style="color: green;">Hello World!</h1>
+    <h2>My World</h2>
+    <p>This is my first and this is not the last</p>
+    <h3>My second word</h3>
+    <p style="color: blue; font-size: 18px;">This is my first HTML page.<br>gahha samaplae hdkkhah</p>
+    <h4>heading 4</h4>
+    <a>https://github.com/microsoft/vscode#</a><br>
+    <img src="photo1.jpg" alt="just a photo" width="300"><br>
+    <img src="https://media.istockphoto.com/id/1446277250/vector/bicycle-isolated-on-white-background.jpg?s=612x612&w=0&k=20&c=FVDWDP-fDf0GLoat6LZghPvizTGgYXvCFpC6GayWFMI=" alt="just a photo2" width="300">
+    <a href="https://en.wikipedia.org/wiki/HTML" target="_blank">Learn HTML</a>
+<ul>train,cat,car</ul>
+<ul><li>Train,cat,bus</ul></li>
+<ul><ol>Train,cat,bus</ul></ol>
+<strong>Important</strong><br>
+<em>Important</em>
+<table border="1">
+<tr>
+<th>Name</th>
+<th>Age</th>
+</tr>
+<tr>
+<td>Janith</td>
+<td>25</td>
+</tr>
+</table><br>
+<form action="/submit" method="post">
+  <label for="name">Name:</label>
+  <input type="text" id="name" name="name"><br><br>
+
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email"><br><br>
+
+  <input type="submit" value="Submit">
+</form>
+
+</body>
+</html>
